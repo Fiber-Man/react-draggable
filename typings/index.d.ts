@@ -46,6 +46,7 @@ declare module 'react-draggable' {
     disabled: boolean,
     enableUserSelectHack: boolean,
     offsetParent: HTMLElement,
+    angle: (positionOffset: ControlPosition) => ControlPosition,
     grid: [number, number],
     handle: string,
     nodeRef?: React.RefObject<HTMLElement>,
